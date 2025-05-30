@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 AI Quiz Web App
 
-## Getting Started
+An intelligent quiz generator built using **Next.js**, **OpenAI**, and **Neon (PostgreSQL)**. Users can enter any topic and get a fully functional multiple-choice quiz generated using GPT. Includes authentication, scoring, and quiz history features.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🤖 **AI-Powered Quiz Generation** – Generate MCQs dynamically using OpenAI based on any topic.
+- ✅ **Instant Feedback** – Real-time scoring and correct answer display after quiz submission.
+- 🔐 **Lucia Authentication** – Secure user login and signup with session handling.
+- 🧾 **Quiz History** – Logged-in users can see their past attempts and scores.
+- 🧱 **Cloud Database with Neon (PostgreSQL)** – Serverless database with Prisma ORM.
+- 🎨 **Modern UI** – Built with ShadCN UI components and Tailwind CSS.
+- 📝 **Form Handling** – Smooth and validated forms using React Hook Form.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technologies Used                                   |
+|--------------|-----------------------------------------------------|
+| Framework    | [Next.js](https://nextjs.org/)                      |
+| Styling      | [Tailwind CSS](https://tailwindcss.com/), [ShadCN UI](https://ui.shadcn.com/) |
+| AI           | [OpenAI API](https://platform.openai.com/docs)     |
+| Backend      | Next.js API Routes                                  |
+| Auth         | [Lucia Auth](https://lucia-auth.com/)              |
+| DB & ORM     | [Neon PostgreSQL](https://neon.tech/), [Prisma](https://www.prisma.io/) |
+| Forms        | [React Hook Form](https://react-hook-form.com/)    |
+
+---
+
+## 📸 Screenshots
+
+(Add your app screenshots here using `![Alt Text](image-url)` format)
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/ai-quiz-web-app.git
+cd ai-quiz-web-app
